@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: '_Montserrat_', sans-serif;
+    background: url(lpy.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    color: rgb(177, 131, 155);
+}
+
+hr{
+    border-color: rgb(164, 119, 61);
+    max-width: 65px;
+}
+
+.buffer{
+    height: 10px;
+}
+
+.btn{
+    font-weight: 700rem;
+    border-radius: 300px;
+    text-transform: uppercase;
+
+}
+
+.btn-primary{
+    background-color: rgb(255, 98, 0);
+    border-color: chocolate;
+}
+
+.btn-primary:hover{
+    background-color: rgb(255, 89, 0);
+    border-color: rgb(255, 12, 7);
+    border-width: 4px;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
